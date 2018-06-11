@@ -11,9 +11,9 @@
 	<cfg key="pu placement left shift" value="8"/>
 	<cfg key="gap above pu string" value="-12"/>
 	<fonts>
-		<font key="normal" type="Constantia" size="12" style="Regular" color="#000000" outlinecolor="#CCCCCC" outlinestrength="270" outlinesharpness="80" antialias="AntiAlias"/>
-		<font key="capital" type="Constantia" size="14" style="Underline" color="#000000" outlinecolor="#CCCCCC" outlinestrength="270" outlinesharpness="80" antialias="AntiAlias"/>
-		<font key="water" type="Constantia" size="12" style="Regular" color="#000000" outlinecolor="#88CCCC" outlinestrength="270" outlinesharpness="80" antialias="AntiAlias"/>
+		<font key="normal" type="Constantia" size="12" style="Regular" color="#000000" outlinecolor="#CCCCCC" outlinestrength="270" outlinesharpness="80" antialias="Clear"/>
+		<font key="capital" type="Constantia" size="14" style="Underline" color="#000000" outlinecolor="#CCCCCC" outlinestrength="270" outlinesharpness="80" antialias="Clear"/>
+		<font key="water" type="Constantia" size="12" style="Regular" color="#000000" outlinecolor="#88CCCC" outlinestrength="270" outlinesharpness="80" antialias="Clear"/>
 	</fonts>
 	<names>
 		<replace territoryname="Centaurs Path" displayname="Centaurs' Path"/>

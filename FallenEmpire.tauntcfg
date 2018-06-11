@@ -6,9 +6,15 @@
 	<cfg key="gap between resources" value="6"/>
 	<cfg key="gap below text" value="4"/>
 	<cfg key="generate name placement file" value="yes"/>
-	<cfg key="font type" type="Constantia" size="12" style="Regular" color="#000000" outlinecolor="#CCCCCC" outlinestrength="270" outlinesharpness="80"/>
-	<cfg key="capital territory font type" type="Constantia" size="14" style="Underline" color="#000000" outlinecolor="#CCCCCC" outlinestrength="270" outlinesharpness="80"/>
-	<cfg key="water territory font type" type="Constantia" size="12" style="Regular" color="#000000" outlinecolor="#88CCCC" outlinestrength="270" outlinesharpness="80"/>
+	<cfg key="generate pu placement file" value="no"/>
+	<cfg key="maximum pu string" value="0"/>
+	<cfg key="pu placement left shift" value="8"/>
+	<cfg key="gap above pu string" value="-12"/>
+	<fonts>
+		<font key="normal" type="Constantia" size="12" style="Regular" color="#000000" outlinecolor="#CCCCCC" outlinestrength="270" outlinesharpness="80" antialias="AntiAlias"/>
+		<font key="capital" type="Constantia" size="14" style="Underline" color="#000000" outlinecolor="#CCCCCC" outlinestrength="270" outlinesharpness="80" antialias="AntiAlias"/>
+		<font key="water" type="Constantia" size="12" style="Regular" color="#000000" outlinecolor="#88CCCC" outlinestrength="270" outlinesharpness="80" antialias="AntiAlias"/>
+	</fonts>
 	<names>
 		<replace territoryname="Centaurs Path" displayname="Centaurs' Path"/>
 		<replace territoryname="Conquerors Bridge" displayname="Conqueror's Bridge"/>

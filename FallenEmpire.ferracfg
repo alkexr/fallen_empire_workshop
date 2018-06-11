@@ -1,0 +1,17 @@
+<configuration>
+	<cfg key="map folder" value="..\fallen_empire\map"/>
+	<cfg key="territory map path" value="..\fallen_empire_workshop\data\base.png"/>
+	<cfg key="relief base path" value="..\fallen_empire_workshop\data\relief.png"/>
+	<cfg key="decorations path" value="..\fallen_empire_workshop\data\decor.png"/>
+	<cfg key="alpha mask path" value="..\fallen_empire_workshop\data\alphamask.png"/>
+	<cfg key="generate alpha mask" value="no"/>
+	<cfg key="land territory opacity" value="208"/>
+	<cfg key="water territory opacity" value="96"/>
+	<cfg key="border extreme opacity" value="64"/>
+	<cfg key="target decoration opacity" value="108"/>
+	<cfg key="target decoration border color" value="#808080"/>
+	<cfg key="source decoraion interior color" value="#FF0000"/>
+	<cfg key="source decoraion border color" value="#FFFFFF"/>
+	<cfg key="border transparency effect cutoff radius" value="100"/>
+	<cfg key="border transparency effect scale" value="9"/>
+</configuration>

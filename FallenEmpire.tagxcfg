@@ -1,0 +1,4 @@
+<configuration>
+	<cfg key="output xml path" value="..\fallen_empire\map\games\Fallen_Empire.xml"/>
+	<cfg key="input xml path" value="..\fallen_empire_workshop\data\Fallen_Empire_TAGX.xml"/>
+</configuration>

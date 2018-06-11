@@ -1,0 +1,27 @@
+<configuration>
+	<cfg key="map folder" value="..\fallen_empire\map"/>
+	<cfg key="resource icon folder" value="..\fallen_empire_workshop\data"/>
+	<cfg key="displayed resources" value="PUs:supply"/>
+	<cfg key="gap between icons" value="-8"/>
+	<cfg key="gap between resources" value="6"/>
+	<cfg key="gap below text" value="4"/>
+	<cfg key="generate name placement file" value="yes"/>
+	<cfg key="font type" type="Constantia" size="12" style="Regular" color="#000000" outlinecolor="#CCCCCC" outlinestrength="270" outlinesharpness="80"/>
+	<cfg key="capital territory font type" type="Constantia" size="14" style="Underline" color="#000000" outlinecolor="#CCCCCC" outlinestrength="270" outlinesharpness="80"/>
+	<cfg key="water territory font type" type="Constantia" size="12" style="Regular" color="#000000" outlinecolor="#88CCCC" outlinestrength="270" outlinesharpness="80"/>
+	<names>
+		<replace territoryname="Centaurs Path" displayname="Centaurs' Path"/>
+		<replace territoryname="Conquerors Bridge" displayname="Conqueror's Bridge"/>
+		<replace territoryname="Hordes Crossing" displayname="Hordes' Crossing"/>
+		<replace territoryname="Monsters March" displayname="Monsters' March"/>
+		<replace territoryname="Nightlords Knoll" displayname="Nightlord's Knoll"/>
+		<replace territoryname="Phobetors Passage" displayname="Phobetor's Passage"/>
+		<replace territoryname="Princes Pass" displayname="Prince's Pass"/>
+		<replace territoryname="Progenitors Coffin" displayname="Progenitors' Coffin"/>
+		<replace territoryname="Smugglers Hideout" displayname="Smugglers' Hideout"/>
+		<replace territoryname="Steppes End" displayname="Steppe's End"/>
+		<replace territoryname="Titans Fist" displayname="Titan's Fist"/>
+		<replace territoryname="Tormentors Keep" displayname="Tormentor's Keep"/>
+		<replace territoryname="Traders Sea" displayname="Traders' Sea"/>
+	</names>
+</configuration>

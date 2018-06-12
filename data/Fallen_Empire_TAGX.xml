@@ -2419,6 +2419,8 @@
 			<unit name="centaur"/>
 			<unit name="waking_willow"/>
 			
+			<unit name="abomination"/>
+			
 			<unit name="templar_knight"/>
 			<unit name="gargoyle"/>
 			
@@ -2707,6 +2709,11 @@
 				<result resourceOrUnit="centaur" quantity="1"/>
 			</productionRule>
 			
+			<productionRule name="buy_abomination">
+				<cost resource="PUs" quantity="5" />
+				<result resourceOrUnit="abomination" quantity="1"/>
+			</productionRule>
+			
 			<productionRule name="buy_templar_knight">
 				<cost resource="PUs" quantity="10" />
 				<result resourceOrUnit="templar_knight" quantity="1"/>
@@ -2772,7 +2779,7 @@
 				<frontierRules name="buy_centaur"/>
 			</productionFrontier>
 			<productionFrontier name="Abyssal_HordeFrontier">
-				<frontierRules name="buyhoplite"/>
+				<frontierRules name="buyabomination"/>
 			</productionFrontier>
 			<productionFrontier name="Sacred_OrderFrontier">
 				<frontierRules name="buy_templar_knight"/>
@@ -3508,6 +3515,20 @@
 				<option name="hitPoints" value="2"/>
 				
 				<tag name="beast"/>
+            </attachment>
+			
+			
+			<!--UNITS ABYSSAL HORDE-->
+			<attachment name="unitAttachment" attachTo="abomination" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+				<option name="transportCost" value="1"/>
+				<option name="movement" value="2"/>
+                <option name="attack" value="2"/>
+				<option name="defense" value="2"/>
+				
+				<option name="createsResourcesList" value="-2:supply"/>
+				
+				<tag name="foot"/>
+				<tag name="sw+"/>
             </attachment>
 			
 			

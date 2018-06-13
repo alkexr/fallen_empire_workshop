@@ -2733,6 +2733,14 @@
 			
 			
 			
+			<productionRule name="buy_nothing">
+				<cost resource="PUs" quantity="42" />
+				<cost resource="supply" quantity="42" />
+				<result resourceOrUnit="PUs" quantity="0"/>
+			</productionRule>
+			
+			
+			
 			
 
 			<productionFrontier name="Saurian_AllianceFrontier">
@@ -2792,6 +2800,7 @@
 			</productionFrontier>
 			
 			<productionFrontier name="IndependentFrontier">
+				<frontierRules name="buy_nothing"/>
 			</productionFrontier>
 
 			<playerProduction player="Saurian_Alliance" frontier="Saurian_AllianceFrontier"/>
